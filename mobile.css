@@ -1,0 +1,122 @@
+@media (max-width: 768px) {
+  .header {
+    max-width: 100%;
+    border-bottom: 1px solid #F1F1F1;
+    justify-content: space-between;
+  }
+  .header .menu {
+    display: none;
+  }
+  .header .btn {
+    visibility: visible;
+    width: 40px;
+    height: 40px;
+  }
+  .header .btn .material-symbols-outlined {
+    width: 30px;
+    height: 20px;
+  }
+  .banner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 80px 0;
+    gap: 40px;
+  }
+  .banner .content1 {
+    position: relative;
+    text-align: center;
+    padding: 0;
+  }
+  .banner .content1 .Vector {
+    width: 64px;
+    height: 64px;
+    position: relative;
+  }
+  .banner .content1 .Vector-1 {
+    display: none;
+  }
+  .banner .content1 .box1 {
+    width: 108px;
+    height: 6px;
+    position: absolute;
+    top: 109px;
+    left: 102px;
+  }
+  .banner .content1 .box2 {
+    position: absolute;
+    top: 170px;
+    left: 90.5px;
+  }
+  .banner .content1 .h2 {
+    width: 300px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1E1E1E;
+    margin: 0;
+  }
+  .banner .content1 .h2-2 {
+    width: 260px;
+  }
+  .banner .content2 {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .banner .content2 .item {
+    width: 235px;
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    padding: 80px 0;
+  }
+  .container .row {
+    max-width: 100%;
+    padding: 0;
+    gap: 48px;
+    margin: 0 0 48px 0;
+  }
+  .container .row .card {
+    width: 100%;
+  }
+  .container .row .card .card-info {
+    padding: 0 16px;
+  }
+  .container .row .card h3, .container .row .card p {
+    text-align: left;
+    line-height: 24px;
+  }
+  .container .row .card h3 {
+    font-size: 20px;
+  }
+  .container .row .card .card-info-tag {
+    margin-top: 16px;
+    gap: 8px;
+  }
+  .footer {
+    height: 538px;
+    flex-direction: column;
+    padding: 40px 12px 40px 12px;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-sm.png?raw=true);
+    gap: 40px;
+  }
+  .footer .footer-info {
+    align-items: center;
+  }
+  .footer .footer-info .footer-logo {
+    width: 120px;
+    height: 54px;
+    gap: 24px;
+  }
+  .footer .footer-info h2, .footer .footer-info h5 {
+    line-height: 24px;
+  }
+  .footer .contact .form, .footer .contact .ig, .footer .contact .fb {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+}/*# sourceMappingURL=mobile.css.map */

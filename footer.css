@@ -1,0 +1,64 @@
+.footer {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-lg.png?raw=true");
+  max-width: 1920px;
+  height: 424px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 312px;
+}
+.footer .footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 686px;
+}
+.footer .footer-info .footer-logo {
+  max-width: 120px;
+  margin: 0 24px 0 0;
+}
+.footer .footer-info h2 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #3B3B3B;
+  margin: 0 24px 0 0;
+}
+.footer .footer-info h5 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #919191;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+.contact .form, .contact .ig, .contact .fb {
+  width: 306px;
+  height: 72px;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #C1C1C1;
+  padding: 8px 24px 8px 24px;
+}
+.contact .form a, .contact .ig a, .contact .fb a {
+  text-decoration: none;
+  color: #000000;
+}
+.contact .form {
+  background-color: #000000;
+}
+.contact .form a {
+  color: white;
+}
+.contact .ig, .contact .fb {
+  color: #3B3B3B;
+}/*# sourceMappingURL=footer.css.map */

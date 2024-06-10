@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 32px 0px 32px 0px;
+}
+.header .header-logo {
+  width: 90px;
+  height: 40px;
+  margin: 0px 318px 0px 0px;
+  position: relative;
+}
+.header .btn {
+  visibility: hidden;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 480px;
+}
+.menu .menu-item {
+  padding: 4px 8px 4px 8px;
+  line-height: 24px;
+}
+.menu .menu-item a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=header.css.map */

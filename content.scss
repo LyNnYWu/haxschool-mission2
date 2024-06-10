@@ -1,0 +1,109 @@
+.container{
+    //container 通常做為通用屬性的 class，只會在裡面撰寫 width 和 margin 的設定，因此建議將卡片區塊 .row 的寬度調整到 .container 並加上 margin 水平置中，另外 .container 的 flex 沒有使用到也建議移除
+    max-width: 1920px;
+    margin: 0 auto;
+    //.page-row puts in container, so here still needs flex
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0 120px 0;
+}
+
+.row{
+    // width: 1920px;
+    display: flex;
+    flex-wrap: wrap;
+    // flex-direction: column;
+    justify-content: center;
+    row-gap: 80px;
+    column-gap: 24px;
+    margin: 0 0 72px 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 636px;
+    
+    img{
+        // max-width: 636px;
+        border-radius: 8px;
+        //卡片圖片上應有 1px 的 border 線條，建議依照設計稿補上
+        border: 1px solid #F1F1F1;
+    }
+    .card-info{
+        height: 122px;
+        border: 0 0 1px 0;
+        padding: 0 16px 0 16px;
+        margin-top: 24px;
+        h3{
+            // width: 224px;
+            // height: 34px;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 33.6px;
+            color: #383838;
+            margin-bottom: 8px;
+            text-align: left;
+        }
+        p{
+            // width: 240px;
+            // height: 24px;
+            // font-weight: 400;
+            // font-size: 16px;
+            line-height: 24px;
+            color: #919191;
+            text-align: left;
+        }
+        .card-info-tag{
+            display: flex;
+            flex-wrap: wrap;
+            // width: 323px;
+            // height: 32px;
+            margin-top: 24px;
+            column-gap: 16px;
+            .tag{
+                // display: inline;
+                // width: 88px;
+                // height: 32px;
+                border-radius: 16px;
+                padding: 4px 12px 4px 12px;
+                background-color: #F1F1F1;
+                // font-size: 16px;
+                line-height: 24px;
+                color: #3B3B3B;
+                // align-items: center;
+            }
+        }
+    }
+}
+
+.page-row{
+    .page{
+        width: 152px;
+        // height: 40px;
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        width: 152px;
+        // height: 40;
+        padding: 2px 13px 2px 13px;
+        .item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4px;
+            width: 40px;
+            height: 40px;
+            // font-weight: 400;
+            font-size: 24px;
+            line-height: 36px;
+            // display: inline;
+        }
+        .page-here{
+            color: white;
+            background-color: black;
+        }
+    }
+}

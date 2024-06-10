@@ -1,0 +1,137 @@
+@media (max-width: 768px) {
+    .header{
+        max-width: 100%; //畫面小於 1314px 時會出現 X 軸修正
+        border-bottom: 1px  solid #F1F1F1;
+        justify-content: space-between;
+        //header 的部分當畫面小於 768px 時，就不用再撰寫 padding 左右了，避免出現 X 軸
+        // padding: 8px 12px 8px 12px;
+        .menu{
+            display: none;
+        }
+        .btn{
+            visibility: visible;
+            // background-color: #1E1E1E;
+            width: 40px;
+            height: 40px;
+            .material-symbols-outlined{
+                width: 30px;
+                height: 20px;
+            }
+        }
+    }
+    .banner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0 80px 0;
+        gap: 40px;
+
+        .content1{
+            position: relative;
+            text-align: center;
+            padding: 0;
+            .Vector{
+                width: 64px;
+                height: 64px;
+                position: relative;
+            }
+            .Vector-1{
+                display: none;
+            }
+            .box1{
+                width: 108px;
+                height: 6px;
+                position: absolute;
+                top: 109px;
+                left: 102px;
+            }
+            .box2{
+                position: absolute;
+                top: 170px;
+                left: 90.5px;
+            }
+            .h2{
+                width: 300px;
+                // font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                color: #1E1E1E;
+                margin: 0;
+            }
+            .h2-2{
+                width: 260px;
+            }
+        }
+        .content2{
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            .item{
+                width: 235px;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+    .container{
+        padding: 80px 0;
+        .row{
+            //因為在 .row 的地方撰寫，當尺寸小於 768px 時寬度變成 351px，限制的容器的寬度，這邊建議可以改為 width: 100% 讓畫面縮小時能夠自適應延伸避免留白過多哦
+            max-width: 100%;
+            padding: 0;
+            gap: 48px;
+            margin: 0 0 48px 0;
+            .card{
+                //.card 的寬度建議改用百分比來設定，這樣當畫面縮小時才能夠自適應畫面尺寸
+                width: 100%;
+                .card-info{
+                padding: 0 16px;
+                }
+                h3, p{
+                    text-align: left;
+                    line-height: 24px;
+                }
+                h3{
+                    font-size: 20px;
+
+                }
+                .card-info-tag{
+                    margin-top: 16px;
+                    gap: 8px;
+                }
+                
+            }
+        }
+    }
+    .footer{
+        height: 538px;
+        flex-direction: column;
+        padding: 40px 12px 40px 12px;
+        background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-sm.png?raw=true);
+        gap: 40px;
+        .footer-info{
+            align-items: center;
+            .footer-logo{
+                width: 120px;
+                height: 54px;
+                gap: 24px;
+            }
+            h2, h5{
+                // font-size: 16px;
+                line-height: 24px;
+            }
+        }
+        .contact{
+            .form, .ig, .fb{
+                font-size: 20px;
+                line-height: 30px;
+                font-weight: 700;
+            }
+            
+            
+        }
+    }
+
+}
